@@ -219,7 +219,7 @@ function createInstructions() {
 
 	text = document.createElement( 'div' );
 	text.onSelectStart = null;
-	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:40px;">Hello!</span><br /><br /><span style="font-size:15px;"><strong>This is how it works:</strong><br /><br />1. Drag a ball.<br />2.&nbsp;Click&nbsp;on&nbsp;the&nbsp;background.<br />3. Shake your browser.<br />4. Double click.<br />5. Play!</span>';
+	text.innerHTML = '<span style="color:' + theme[0] + ';font-size:40px;">大家好，这是我的测试网页!</span><br /><br /><span style="font-size:15px;"><strong>这是巨野人的</strong><br /><br />1. 交友.<br />2.二手.<br />3. 信息发布.<br />4. 同好交流.<br />5. P让我们开始吧!</span>';
 	text.style.color = theme[1];
 	text.style.position = 'absolute';
 	text.style.left = '0px';
