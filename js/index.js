@@ -371,7 +371,7 @@ function stageTooSmallHandler(){
     var score;
     var fontProperties = new Sakri.CanvasTextProperties(Sakri.CanvasTextProperties.BOLD, null, 100);
 
-    var word = "王志豪你好！";
+    var word = "王志豪你好";
 
     function startDemo(){
         canvas.addEventListener('touchstart', handleUserTap, false);
@@ -472,7 +472,7 @@ function stageTooSmallHandler(){
         //game over logo
         context.drawImage(gameOverCanvas, bounds.getCenterX() - logoCanvas.width/2, canvas.height *.2);
 
-        var instruction = "Click or tap to flap again.";
+        var instruction = "按任意键重新开始";
         context.font = "bold normal 24px sans-serif";
         context.fillStyle = "#FFFFFF";
         context.fillText(instruction, bounds.getCenterX() - context.measureText(instruction).width/2, canvas.height *.25 + gameOverCanvas.height);
